@@ -1,27 +1,32 @@
 [
-    {
-      "Alimento": "Ervilha seca cozida",
-      "UnidadeCaseira": "2 Colheres de sopa",
-      "Grama": "60,00"
-    },
-    {
-      "Alimento": "Feijão",
-      "UnidadeCaseira": "Concha média",
-      "Grama": "80,00"
-    },
-    {
-      "Alimento": "Grão-de-bico",
-      "UnidadeCaseira": "2 Colheres de sopa",
-      "Grama": "40,00"
-    },
-    {
-      "Alimento": "Lentilha",
-      "UnidadeCaseira": "Meia Concha",
-      "Grama": "40,00"
-    },
-    {
-      "Alimento": "Proteína de Soja",
-      "UnidadeCaseira": "2 Colheres de sopa",
-      "Grama": "48,00"
-    }
-  ]
+  {
+    "Alimento": "Ervilha seca cozida",
+    "UnidadeCaseira": "2 Colheres de sopa",
+    "Grama": "60,00"
+  },
+  {
+    "Alimento": "Feijão",
+    "UnidadeCaseira": "Concha média",
+    "Grama": "80,00"
+  },
+  {
+    "Alimento": "Grão-de-bico",
+    "UnidadeCaseira": "2 Colheres de sopa",
+    "Grama": "40,00"
+  },
+  {
+    "Alimento": "Lentilha",
+    "UnidadeCaseira": "Meia Concha",
+    "Grama": "40,00"
+  },
+  {
+    "Alimento": "Proteína de Soja",
+    "UnidadeCaseira": "2 Colheres de sopa",
+    "Grama": "48,00"
+  },
+  {
+    "Alimento": "Cogumelo",
+    "UnidadeCaseira": "Não definido",
+    "Grama": "00,00"
+  }
+]

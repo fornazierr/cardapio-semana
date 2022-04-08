@@ -1,42 +1,42 @@
 [
-    {
-      "Alimento": "Amêndoas",
-      "UnidadeCaseira": "9 unidades",
-      "Grama": "9,00"
-    },
-    {
-      "Alimento": "Amendoim",
-      "UnidadeCaseira": "10 unidades",
-      "Grama": "10,00"
-    },
-    {
-      "Alimento": "Castanha de caju",
-      "UnidadeCaseira": "4 unidades",
-      "Grama": "10,00"
-    },
-    {
-      "Alimento": "Castanha do Pará",
-      "UnidadeCaseira": "2 unidades",
-      "Grama": "10,00"
-    },
-    {
-      "Alimento": "Macadâmia",
-      "UnidadeCaseira": "4 unidades",
-      "Grama": "8,00"
-    },
-    {
-      "Alimento": "Nozes",
-      "UnidadeCaseira": "4 unidades",
-      "Grama": "10,00"
-    },
-    {
-      "Alimento": "Semente de chia",
-      "UnidadeCaseira": "1 Colher de sopa",
-      "Grama": "12,00"
-    },
-    {
-      "Alimento": "Semente de linhaça",
-      "UnidadeCaseira": "1 Colher de sobremesa",
-      "Grama": "10,00"
-    }
-  ]
+  {
+    "Alimento": "Amêndoas",
+    "UnidadeCaseira": "9 unidades",
+    "Grama": "9,00"
+  },
+  {
+    "Alimento": "Amendoim",
+    "UnidadeCaseira": "10 unidades",
+    "Grama": "10,00"
+  },
+  {
+    "Alimento": "Castanha de caju",
+    "UnidadeCaseira": "4 unidades",
+    "Grama": "10,00"
+  },
+  {
+    "Alimento": "Castanha do Pará",
+    "UnidadeCaseira": "2 unidades",
+    "Grama": "10,00"
+  },
+  {
+    "Alimento": "Macadâmia",
+    "UnidadeCaseira": "4 unidades",
+    "Grama": "8,00"
+  },
+  {
+    "Alimento": "Nozes",
+    "UnidadeCaseira": "4 unidades",
+    "Grama": "10,00"
+  },
+  {
+    "Alimento": "Semente de chia",
+    "UnidadeCaseira": "1 Colher de sopa",
+    "Grama": "12,00"
+  },
+  {
+    "Alimento": "Semente de linhaça",
+    "UnidadeCaseira": "1 Colher de sobremesa",
+    "Grama": "10,00"
+  }
+]

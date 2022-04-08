@@ -1,52 +1,52 @@
 [
-    {
-      "Alimento": "Abóbora",
-      "UnidadeCaseira": "2 Colheres de sopa",
-      "Grama": "25,00"
-    },
-    {
-      "Alimento": "Berinjela",
-      "UnidadeCaseira": "2 Colheres de sopa",
-      "Grama": "50,00"
-    },
-    {
-      "Alimento": "Beterraba",
-      "UnidadeCaseira": "2 Colheres de sopa",
-      "Grama": "40,00"
-    },
-    {
-      "Alimento": "Cenoura",
-      "UnidadeCaseira": "3 Colheres de sopa",
-      "Grama": "75,00"
-    },
-    {
-      "Alimento": "Chuchu",
-      "UnidadeCaseira": "3 Colheres de sopa",
-      "Grama": "60,00"
-    },
-    {
-      "Alimento": "Couve-flor picada",
-      "UnidadeCaseira": "3 Colheres de sopa",
-      "Grama": "90,00"
-    },
-    {
-      "Alimento": "Ervilha",
-      "UnidadeCaseira": "1 Colher de sopa",
-      "Grama": "27,00"
-    },
-    {
-      "Alimento": "Nabo",
-      "UnidadeCaseira": "3 Colheres de Sopa",
-      "Grama": "78,00"
-    },
-    {
-      "Alimento": "Quiabo",
-      "UnidadeCaseira": "2 Colheres de sopa",
-      "Grama": "80,00"
-    },
-    {
-      "Alimento": "Vagem",
-      "UnidadeCaseira": "2 Colheres de sopa",
-      "Grama": "40,00"
-    }
-  ]
+  {
+    "Alimento": "Abóbora",
+    "UnidadeCaseira": "2 Colheres de sopa",
+    "Grama": "25,00"
+  },
+  {
+    "Alimento": "Berinjela",
+    "UnidadeCaseira": "2 Colheres de sopa",
+    "Grama": "50,00"
+  },
+  {
+    "Alimento": "Beterraba",
+    "UnidadeCaseira": "2 Colheres de sopa",
+    "Grama": "40,00"
+  },
+  {
+    "Alimento": "Cenoura",
+    "UnidadeCaseira": "3 Colheres de sopa",
+    "Grama": "75,00"
+  },
+  {
+    "Alimento": "Chuchu",
+    "UnidadeCaseira": "3 Colheres de sopa",
+    "Grama": "60,00"
+  },
+  {
+    "Alimento": "Couve-flor picada",
+    "UnidadeCaseira": "3 Colheres de sopa",
+    "Grama": "90,00"
+  },
+  {
+    "Alimento": "Ervilha",
+    "UnidadeCaseira": "1 Colher de sopa",
+    "Grama": "27,00"
+  },
+  {
+    "Alimento": "Nabo",
+    "UnidadeCaseira": "3 Colheres de Sopa",
+    "Grama": "78,00"
+  },
+  {
+    "Alimento": "Quiabo",
+    "UnidadeCaseira": "2 Colheres de sopa",
+    "Grama": "80,00"
+  },
+  {
+    "Alimento": "Vagem",
+    "UnidadeCaseira": "2 Colheres de sopa",
+    "Grama": "40,00"
+  }
+]

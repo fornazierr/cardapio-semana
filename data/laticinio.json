@@ -1,67 +1,67 @@
 [
-    {
-      "Alimento": "Coalhada",
-      "UnidadeCaseira": "1 Xícara",
-      "Grama": "200,00"
-    },
-    {
-      "Alimento": "Creme de ricota",
-      "UnidadeCaseira": "2 Colheres de sopa",
-      "Grama": "30,00"
-    },
-    {
-      "Alimento": "Iogurte desnatado/natural",
-      "UnidadeCaseira": "1 Pote/ copo",
-      "Grama": "200,00"
-    },
-    {
-      "Alimento": "Leite Desnatado/Semidesnatado",
-      "UnidadeCaseira": "1 Copo",
-      "Grama": "200,00"
-    },
-    {
-      "Alimento": "Leite em pó desnatado",
-      "UnidadeCaseira": "3 Colheres de sopa",
-      "Grama": "30,00"
-    },
-    {
-      "Alimento": "Leite Integral",
-      "UnidadeCaseira": "1 Copo Americano",
-      "Grama": "150,00"
-    },
-    {
-      "Alimento": "Queijo Cottage",
-      "UnidadeCaseira": "2 colheres de sopa",
-      "Grama": ""
-    },
-    {
-      "Alimento": "Queijo minas",
-      "UnidadeCaseira": "1 Fatia",
-      "Grama": "45,00"
-    },
-    {
-      "Alimento": "Queijo Muçarela",
-      "UnidadeCaseira": "2 Fatias",
-      "Grama": "45,00"
-    },
-    {
-      "Alimento": "Queijo parmesão ralado",
-      "UnidadeCaseira": "2 Colheres de sopa",
-      "Grama": "22,00"
-    },
-    {
-      "Alimento": "Queijo Tofu",
-      "UnidadeCaseira": "2 Fatias",
-      "Grama": "50,00"
-    },
-    {
-      "Alimento": "Requeijão light",
-      "UnidadeCaseira": "1 Colher e meia de sopa",
-      "Grama": "45,00"
-    },
-    {
-      "Alimento": "Ricota",
-      "UnidadeCaseira": "2 Fatias",
-      "Grama": "70,00"
-    }
-  ]
+  {
+    "Alimento": "Coalhada",
+    "UnidadeCaseira": "1 Xícara",
+    "Grama": "200,00"
+  },
+  {
+    "Alimento": "Creme de ricota",
+    "UnidadeCaseira": "2 Colheres de sopa",
+    "Grama": "30,00"
+  },
+  {
+    "Alimento": "Iogurte desnatado/natural",
+    "UnidadeCaseira": "1 Pote/ copo",
+    "Grama": "200,00"
+  },
+  {
+    "Alimento": "Leite Desnatado/Semidesnatado",
+    "UnidadeCaseira": "1 Copo",
+    "Grama": "200,00"
+  },
+  {
+    "Alimento": "Leite em pó desnatado",
+    "UnidadeCaseira": "3 Colheres de sopa",
+    "Grama": "30,00"
+  },
+  {
+    "Alimento": "Leite Integral",
+    "UnidadeCaseira": "1 Copo Americano",
+    "Grama": "150,00"
+  },
+  {
+    "Alimento": "Queijo Cottage",
+    "UnidadeCaseira": "2 colheres de sopa",
+    "Grama": ""
+  },
+  {
+    "Alimento": "Queijo minas",
+    "UnidadeCaseira": "1 Fatia",
+    "Grama": "45,00"
+  },
+  {
+    "Alimento": "Queijo Muçarela",
+    "UnidadeCaseira": "2 Fatias",
+    "Grama": "45,00"
+  },
+  {
+    "Alimento": "Queijo parmesão ralado",
+    "UnidadeCaseira": "2 Colheres de sopa",
+    "Grama": "22,00"
+  },
+  {
+    "Alimento": "Queijo Tofu",
+    "UnidadeCaseira": "2 Fatias",
+    "Grama": "50,00"
+  },
+  {
+    "Alimento": "Requeijão light",
+    "UnidadeCaseira": "1 Colher e meia de sopa",
+    "Grama": "45,00"
+  },
+  {
+    "Alimento": "Ricota",
+    "UnidadeCaseira": "2 Fatias",
+    "Grama": "70,00"
+  }
+]

@@ -3,6 +3,7 @@ package main
 import (
 	"encoding/json"
 	"fmt"
+	"math/rand"
 	"os"
 )
 
@@ -39,8 +40,18 @@ var Frutas []Alimento
 var Laticinio []Alimento
 var Leguminosas []Alimento
 var Oleaginosas []Alimento
+var Proteinas []Alimento
 var VegetalA []Alimento
 var VegetalB []Alimento
+
+type Diaria struct {
+	Carboidrato Alimento
+	Proteina    Alimento
+	VegetalA    []Alimento
+	VegetalB    Alimento
+}
+
+var Cardapio []Diaria
 
 /////////////////////////
 // FUNCTIONS
@@ -50,6 +61,8 @@ func main() {
 	// Carregando dados dos cereais
 	carregaDados()
 	listaQuantidade()
+	geraCardapio()
+	ImprimeCardapio()
 }
 
 //Carrega dados dos arquivos JSON e os coloca em variáveis em memória
@@ -85,6 +98,12 @@ func carregaDados() {
 	err = json.Unmarshal(myFile, &Oleaginosas)
 	checkErr(err)
 
+	// Carregando dados das proteinas
+	myFile, err = os.ReadFile("data/proteinas.json")
+	checkErr(err)
+	err = json.Unmarshal(myFile, &Proteinas)
+	checkErr(err)
+
 	// Carregando dados dos vegetais A
 	myFile, err = os.ReadFile("data/vegetala.json")
 	checkErr(err)
@@ -109,6 +128,63 @@ func listaQuantidade() {
 	fmt.Println("Quandidade de Oleaginosas:", len(Oleaginosas))
 	fmt.Println("Quandidade de Vegetal A:", len(VegetalA))
 	fmt.Println("Quandidade de VegetalB:", len(VegetalB), "xxxxxxxxxx")
+}
+
+//Gera um cardápio semanal
+func geraCardapio() {
+	fmt.Println("Iniciando processo de geração de cardápio.")
+	// Iniciando cardápio
+	Cardapio = make([]Diaria, 7)
+	for i := 0; i < 7; i++ {
+		Cardapio[i] = geraDiaria()
+		fmt.Println("Diária", i, "gerada.")
+	}
+	fmt.Println("xxxxxxxxxx")
+}
+
+//Gera uma refeição diária
+func geraDiaria() Diaria {
+	diaria := Diaria{}
+
+	// Adicionando carboidrato
+	cerealNumber := rand.Intn(len(Cereais))
+	diaria.Carboidrato = Cereais[cerealNumber]
+	Cereais = RemoveIndex(Cereais, cerealNumber)
+
+	// frutaNumber := rand.Intn(len(Frutas))
+	// laticinioNumber := rand.Intn(len(Laticinio))
+	// leguminosaNumber := rand.Intn(len(Leguminosas))
+	// oleaginosaNumber := rand.Intn(len(Oleaginosas))
+
+	// Adicionando proteina
+	proteinaNumber := rand.Intn(len(Proteinas))
+	diaria.Proteina = Proteinas[proteinaNumber]
+	Proteinas = RemoveIndex(Proteinas, proteinaNumber)
+
+	// Adicionando vegetais A
+	diaria.VegetalA = make([]Alimento, 5)
+	for i := 0; i < 5; i++ {
+		vegetalaNumber := rand.Intn(len(VegetalA))
+		diaria.VegetalA[i] = VegetalA[vegetalaNumber]
+	}
+
+	// Adicionando vegetais B
+	vegetalbNumber := rand.Intn(len(VegetalB))
+	diaria.VegetalB = VegetalB[vegetalbNumber]
+	VegetalB = RemoveIndex(VegetalB, vegetalbNumber)
+
+	return diaria
+}
+
+//Imprime o Cardápio em Json
+func ImprimeCardapio() {
+	cardapioByte, err := json.Marshal(Cardapio)
+	checkErr(err)
+	fmt.Println(string(cardapioByte))
+}
+
+func RemoveIndex(s []Alimento, index int) []Alimento {
+	return append(s[:index], s[index+1:]...)
 }
 
 func checkErr(e error) {
