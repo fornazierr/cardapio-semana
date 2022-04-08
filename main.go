@@ -1,5 +1,7 @@
 package main
 
+import "fmt"
+
 /**
 Este aplicativo irá gerar uma sugestão de cardápios para uma semana, todos os sete dias
 
@@ -19,5 +21,5 @@ Exemplo:
 **/
 
 func main() {
-
+	fmt.Println("Hello World, from Cardápio Semanal")
 }

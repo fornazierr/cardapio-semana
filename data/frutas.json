@@ -1,0 +1,132 @@
+[
+    {
+      "Alimento": "Abacaxi",
+      "UnidadeCaseira": "1 Fatia",
+      "Grama": "100,00"
+    },
+    {
+      "Alimento": "Acerola",
+      "UnidadeCaseira": "18 unidades",
+      "Grama": "216,00"
+    },
+    {
+      "Alimento": "Água de coco",
+      "UnidadeCaseira": "1 Copo grande",
+      "Grama": "300,00"
+    },
+    {
+      "Alimento": "Ameixa",
+      "UnidadeCaseira": "4 unidades médias",
+      "Grama": "160,00"
+    },
+    {
+      "Alimento": "Ameixa preta seca",
+      "UnidadeCaseira": "5 Unidades",
+      "Grama": "25,00"
+    },
+    {
+      "Alimento": "Banana",
+      "UnidadeCaseira": "1 Unidade",
+      "Grama": "55,00"
+    },
+    {
+      "Alimento": "Begamota",
+      "UnidadeCaseira": "1 Unidade",
+      "Grama": "100,000"
+    },
+    {
+      "Alimento": "Caqui",
+      "UnidadeCaseira": "1 Unidade",
+      "Grama": "85,00"
+    },
+    {
+      "Alimento": "Damasco Seco",
+      "UnidadeCaseira": "4 Unidades",
+      "Grama": "28,00"
+    },
+    {
+      "Alimento": "Gouaba 1",
+      "UnidadeCaseira": "Unidade pequena",
+      "Grama": "170,00"
+    },
+    {
+      "Alimento": "Jabuticaba",
+      "UnidadeCaseira": "18 unidades",
+      "Grama": "90,00"
+    },
+    {
+      "Alimento": "Kiwi",
+      "UnidadeCaseira": "Unidade Média",
+      "Grama": "76,00"
+    },
+    {
+      "Alimento": "Laranja",
+      "UnidadeCaseira": "1 Unidade",
+      "Grama": "90,00"
+    },
+    {
+      "Alimento": "Maçã",
+      "UnidadeCaseira": "1 Unidade",
+      "Grama": "90,00"
+    },
+    {
+      "Alimento": "Mamão",
+      "UnidadeCaseira": "metade",
+      "Grama": "135,00"
+    },
+    {
+      "Alimento": "Mamão formosa",
+      "UnidadeCaseira": "1 Fatia",
+      "Grama": "170,00"
+    },
+    {
+      "Alimento": "Manga",
+      "UnidadeCaseira": "1 Unidade média",
+      "Grama": "80,00"
+    },
+    {
+      "Alimento": "Melancia",
+      "UnidadeCaseira": "1 Fatia",
+      "Grama": "200,00"
+    },
+    {
+      "Alimento": "Melão",
+      "UnidadeCaseira": "2 fatias",
+      "Grama": "180,00"
+    },
+    {
+      "Alimento": "Morango",
+      "UnidadeCaseira": "10 unidades",
+      "Grama": "120,00"
+    },
+    {
+      "Alimento": "Pera",
+      "UnidadeCaseira": "1 Unidade",
+      "Grama": "98,00"
+    },
+    {
+      "Alimento": "Pêssego",
+      "UnidadeCaseira": "2 unidades médias",
+      "Grama": "120,00"
+    },
+    {
+      "Alimento": "Romã",
+      "UnidadeCaseira": "2 unidades",
+      "Grama": "140,00"
+    },
+    {
+      "Alimento": "Salada de Frutas",
+      "UnidadeCaseira": "1 taça/copo americano",
+      "Grama": "150,00"
+    },
+    {
+      "Alimento": "Uva",
+      "UnidadeCaseira": "10 unidades",
+      "Grama": "80,00"
+    },
+    {
+      "Alimento": "Uva passa",
+      "UnidadeCaseira": "1 Colher de sopa",
+      "Grama": "20,00"
+    }
+  ]

@@ -1,0 +1,107 @@
+[
+    {
+      "Alimento": "Aipim",
+      "UnidadeCaseira": "1 pedaço",
+      "Grama": "100,00"
+    },
+    {
+      "Alimento": "Arroz branco",
+      "UnidadeCaseira": "4 colheres de sopa",
+      "Grama": "100,00"
+    },
+    {
+      "Alimento": "Arroz integral",
+      "UnidadeCaseira": "4 Colheres de sopa",
+      "Grama": "80,00"
+    },
+    {
+      "Alimento": "Aveia",
+      "UnidadeCaseira": "2 Colheres de sopa",
+      "Grama": "30,00"
+    },
+    {
+      "Alimento": "Barra de cereais",
+      "UnidadeCaseira": "1 barra",
+      "Grama": "25,00"
+    },
+    {
+      "Alimento": "Batata",
+      "UnidadeCaseira": "1 Unidade",
+      "Grama": "135,00"
+    },
+    {
+      "Alimento": "Batata doce",
+      "UnidadeCaseira": "2 Fatias médias",
+      "Grama": "140,00"
+    },
+    {
+      "Alimento": "Biscoito Maisena",
+      "UnidadeCaseira": "6 unidades",
+      "Grama": "30,00"
+    },
+    {
+      "Alimento": "Biscoito salgado integral",
+      "UnidadeCaseira": "6 unidades",
+      "Grama": "30,00"
+    },
+    {
+      "Alimento": "Bolo Simples",
+      "UnidadeCaseira": "1 fatia pequena",
+      "Grama": "50,00"
+    },
+    {
+      "Alimento": "Farofa",
+      "UnidadeCaseira": "2 Colheres de sopa",
+      "Grama": "30,00"
+    },
+    {
+      "Alimento": "Granola sem açúcar",
+      "UnidadeCaseira": "3 Colheres de sopa",
+      "Grama": "30,00"
+    },
+    {
+      "Alimento": "Nhoque",
+      "UnidadeCaseira": "1 Colher de Servir/ Arroz",
+      "Grama": "70,00"
+    },
+    {
+      "Alimento": "Pão de forma integral",
+      "UnidadeCaseira": "2 Fatias",
+      "Grama": "50,00"
+    },
+    {
+      "Alimento": "Pão de queijo",
+      "UnidadeCaseira": "1 Unidade",
+      "Grama": "40,00"
+    },
+    {
+      "Alimento": "Pão francês",
+      "UnidadeCaseira": "1 Unidade",
+      "Grama": "50,00"
+    },
+    {
+      "Alimento": "Pipoca",
+      "UnidadeCaseira": "2 xícaras de chá",
+      "Grama": "50,00"
+    },
+    {
+      "Alimento": "Polenta",
+      "UnidadeCaseira": "3 Colheres de sopa",
+      "Grama": "100,00"
+    },
+    {
+      "Alimento": "Quinoa",
+      "UnidadeCaseira": "4 Colheres de sopa",
+      "Grama": "20,00"
+    },
+    {
+      "Alimento": "Tapioca",
+      "UnidadeCaseira": "2 Colhere de sopa",
+      "Grama": "30,00"
+    },
+    {
+      "Alimento": "Torrada",
+      "UnidadeCaseira": "4 Unidades",
+      "Grama": "40,00"
+    }
+  ]
