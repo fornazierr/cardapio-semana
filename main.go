@@ -36,10 +36,11 @@ type Alimento struct {
 }
 
 var Cereais []Alimento
-var Frutas []Alimento
-var Laticinio []Alimento
-var Leguminosas []Alimento
-var Oleaginosas []Alimento
+
+// var Frutas []Alimento
+// var Laticinio []Alimento
+// var Leguminosas []Alimento
+// var Oleaginosas []Alimento
 var Proteinas []Alimento
 var VegetalA []Alimento
 var VegetalB []Alimento
@@ -47,7 +48,7 @@ var VegetalB []Alimento
 type Diaria struct {
 	Carboidrato Alimento
 	Proteina    Alimento
-	VegetalA    []Alimento
+	Salada      []Alimento
 	VegetalB    Alimento
 }
 
@@ -75,28 +76,28 @@ func carregaDados() {
 	checkErr(err)
 
 	// Carregando dados das frutas
-	myFile, err = os.ReadFile("data/frutas.json")
-	checkErr(err)
-	err = json.Unmarshal(myFile, &Frutas)
-	checkErr(err)
+	// myFile, err = os.ReadFile("data/frutas.json")
+	// checkErr(err)
+	// err = json.Unmarshal(myFile, &Frutas)
+	// checkErr(err)
 
 	// Carregando dados dos laticinios
-	myFile, err = os.ReadFile("data/laticinio.json")
-	checkErr(err)
-	err = json.Unmarshal(myFile, &Laticinio)
-	checkErr(err)
+	// myFile, err = os.ReadFile("data/laticinio.json")
+	// checkErr(err)
+	// err = json.Unmarshal(myFile, &Laticinio)
+	// checkErr(err)
 
 	// Carregando dados das leguminoas
-	myFile, err = os.ReadFile("data/leguminosas.json")
-	checkErr(err)
-	err = json.Unmarshal(myFile, &Leguminosas)
-	checkErr(err)
+	// myFile, err = os.ReadFile("data/leguminosas.json")
+	// checkErr(err)
+	// err = json.Unmarshal(myFile, &Leguminosas)
+	// checkErr(err)
 
 	// Carregando dados das oleaginosas
-	myFile, err = os.ReadFile("data/oleaginosas.json")
-	checkErr(err)
-	err = json.Unmarshal(myFile, &Oleaginosas)
-	checkErr(err)
+	// myFile, err = os.ReadFile("data/oleaginosas.json")
+	// checkErr(err)
+	// err = json.Unmarshal(myFile, &Oleaginosas)
+	// checkErr(err)
 
 	// Carregando dados das proteinas
 	myFile, err = os.ReadFile("data/proteinas.json")
@@ -122,10 +123,10 @@ func carregaDados() {
 //Lista a quantidades de itens carregados
 func listaQuantidade() {
 	fmt.Println("Quandidade de Cereais:", len(Cereais))
-	fmt.Println("Quandidade de Frutas:", len(Frutas))
-	fmt.Println("Quandidade de Laticinios:", len(Laticinio))
-	fmt.Println("Quandidade de Leguminosas:", len(Leguminosas))
-	fmt.Println("Quandidade de Oleaginosas:", len(Oleaginosas))
+	// fmt.Println("Quandidade de Frutas:", len(Frutas))
+	// fmt.Println("Quandidade de Laticinios:", len(Laticinio))
+	// fmt.Println("Quandidade de Leguminosas:", len(Leguminosas))
+	// fmt.Println("Quandidade de Oleaginosas:", len(Oleaginosas))
 	fmt.Println("Quandidade de Vegetal A:", len(VegetalA))
 	fmt.Println("Quandidade de VegetalB:", len(VegetalB), "xxxxxxxxxx")
 }
@@ -135,9 +136,18 @@ func geraCardapio() {
 	fmt.Println("Iniciando processo de geração de cardápio.")
 	// Iniciando cardápio
 	Cardapio = make([]Diaria, 7)
+
+	// Adicionando vegetais A
+	salada := make([]Alimento, 10)
+	for i := 0; i < 10; i++ {
+		vegetalaNumber := rand.Intn(len(VegetalA))
+		salada[i] = VegetalA[vegetalaNumber]
+	}
+
 	for i := 0; i < 7; i++ {
 		Cardapio[i] = geraDiaria()
-		fmt.Println("Diária", i, "gerada.")
+		Cardapio[i].Salada = salada
+		fmt.Println("Diária", i+1, "gerada.")
 	}
 	fmt.Println("xxxxxxxxxx")
 }
@@ -160,13 +170,6 @@ func geraDiaria() Diaria {
 	proteinaNumber := rand.Intn(len(Proteinas))
 	diaria.Proteina = Proteinas[proteinaNumber]
 	Proteinas = RemoveIndex(Proteinas, proteinaNumber)
-
-	// Adicionando vegetais A
-	diaria.VegetalA = make([]Alimento, 5)
-	for i := 0; i < 5; i++ {
-		vegetalaNumber := rand.Intn(len(VegetalA))
-		diaria.VegetalA[i] = VegetalA[vegetalaNumber]
-	}
 
 	// Adicionando vegetais B
 	vegetalbNumber := rand.Intn(len(VegetalB))
